@@ -12,6 +12,9 @@ public class UtilityApacheCommonsCLILibrary {
         options.addOption("name",true,"First Name");
         options.addOption("surname",true,"Last Name");
 
+        //Initialize HelpFormatter to show the options
+        HelpFormatter formatter = new HelpFormatter();
+
         try{
             //Get command line options using parser
             CommandLine cmdLine = parser.parse(options,args);
@@ -28,8 +31,7 @@ public class UtilityApacheCommonsCLILibrary {
             }
         }catch (ParseException exception){
             System.out.println(exception.getMessage());
+            formatter.printHelp("UtilityApacheCommonsCLILibrary",options);
         }
-
-
     }
 }
