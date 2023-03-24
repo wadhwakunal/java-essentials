@@ -15,7 +15,7 @@ Every java application has at least one thread - <b>main thread</b>. Although th
 + Thread intercommunication is relatively easy than process communication.
 
 ### Thread Lifecycle 
-![img_4.png](.\images\img_4.png)
+![img_4.png](./images/img_4.png)
 
 ```dtd
 class Thread1 implements Runnable{
