@@ -1,2 +1,2 @@
 # java-essentials
-Consists code to perform basic functionalities using java
+Master branch consists of Java notes and few basic programs.
