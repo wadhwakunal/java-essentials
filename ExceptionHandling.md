@@ -13,11 +13,11 @@ Connection Failure, opening a non-existing file and more.
 
 **Steps followed to handle an Exception**
 
-![](.\images\Exception_Steps.jpg)
+![](./images/Exception_Steps.jpg)
 
 ### Exception Hierarchy
 
-![](.\images\ExceptionsHierarchy.jpg)
+![](./images/ExceptionsHierarchy.jpg)
 
 There are two types of exceptions:
 
@@ -525,11 +525,11 @@ To summarise some differences:
 
 **Error vs Exception**
 
-![](.\images\ErrorVsException.jpg)
+![](./images/ErrorVsException.jpg)
 
 **Throw vs Throws**
 
-![](.\images\ThrowVsThrows.jpg)
+![](./images/ThrowVsThrows.jpg)
 
 _References:_
 https://docs.oracle.com/javase/tutorial/essential/exceptions/
